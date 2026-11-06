@@ -365,7 +365,7 @@ def open_session(account: str, cfg: dict, visible: bool) -> EdgeSession:
     if cid != int(cfg["candidate_id"]):
         s.close()
         raise Stop(EXIT_NEEDS_USER,
-                   f"profile is signed in as candidate {cid}, expected the configured account; refusing to apply")
+                   "profile is signed in as a different candidate, expected the configured account; refusing to apply")
     marker(account, "LOGIN_REQUIRED").unlink(missing_ok=True)
     return s
 
