@@ -1,0 +1,9 @@
+state/
+logs/
+profiles/
+config.local.json
+config.json
+*.db
+*.log
+__pycache__/
+.venv/

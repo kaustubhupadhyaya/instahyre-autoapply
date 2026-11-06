@@ -1,0 +1,67 @@
+{
+  "daily_cap": 30,
+  "pace_seconds": [
+    35,
+    90
+  ],
+  "max_feed_pages": 10,
+  "edge_exe": "",
+  "off_role_words": [
+    "site reliability",
+    "sre",
+    "devops",
+    "qa",
+    "test",
+    "tester",
+    "testing",
+    "frontend",
+    "front end",
+    "front-end",
+    "android",
+    "ios",
+    "mobile",
+    "sales",
+    "support",
+    "designer",
+    "security",
+    "recruiter",
+    "hr",
+    "marketing",
+    "intern",
+    "internship"
+  ],
+  "accounts": {
+    "1": {
+      "label": "Instahyre account 1",
+      "identity_config": "~/path/to/identity-1.json",
+      "resume": "~/path/to/resume-1.pdf",
+      "generic_role_words": [
+        "engineer",
+        "developer",
+        "sde",
+        "programmer",
+        "software development engineer"
+      ],
+      "search_job_functions": [
+        17
+      ]
+    },
+    "2": {
+      "label": "Instahyre account 2",
+      "identity_config": "~/path/to/identity-2.json",
+      "resume": "~/path/to/resume-2.pdf",
+      "generic_role_words": [
+        "engineer",
+        "developer",
+        "sde",
+        "programmer",
+        "software development engineer",
+        "scientist",
+        "researcher"
+      ],
+      "search_job_functions": [
+        9
+      ]
+    }
+  }
+}
